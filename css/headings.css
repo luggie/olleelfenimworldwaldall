@@ -4,7 +4,7 @@
 h1 {
     position: relative;
     font-family: 'Exo';
-    font-size: 9em;
+    font-size: 4em;
     margin: 0;
     transform: skew(-15deg);
     letter-spacing: 0.03em; }
@@ -33,7 +33,7 @@ h1 span:last-child {
 h2 {
     font-family: 'Mr Dafoe';
     margin: 0;
-    font-size: 5.5em;
+    font-size: 1em;
     margin-top: -0.6em;
     color: white;
     text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
