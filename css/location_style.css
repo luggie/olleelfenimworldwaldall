@@ -80,3 +80,7 @@ h2 {
     color: white;
     text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
     transform: rotate(-3deg); }
+
+ul {
+    list-style: none;
+}
