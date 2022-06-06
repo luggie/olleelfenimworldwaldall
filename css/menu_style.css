@@ -1,22 +1,15 @@
+body {
+    background: black;
+}
+
 .button {
-    background-color: #4CAF50;
-    border-width: 10px;
-    border-radius: 4px;
-    border-color: darkgreen;
-    border: inset;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: underline wavy darkgreen;
     display: inline-block;
     font-size: 28px;
     margin: 8px 2px;
     cursor: pointer;
-}
-.button:hover {
-    border: outset;
-    background-color: darkgreen;
-    border-color: #4CAF50;
 }
 
 .glow-on-hover {
@@ -50,7 +43,7 @@
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: pink;
 }
 
 .glow-on-hover:active:after {
