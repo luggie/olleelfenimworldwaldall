@@ -1,0 +1,7 @@
+body{
+    background-image: url("../pics/banana.gif");
+    background-repeat:repeat;
+    background-size: 100vh;
+    padding:0;
+    margin:0;
+}

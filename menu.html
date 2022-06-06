@@ -1,96 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="html">
     <head>
-        <style>
-            .button {
-                background-color: #4CAF50;
-                border-width: 10px;
-                border-radius: 4px;
-                border-color: darkgreen;
-                border: inset;
-                color: white;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: underline wavy darkgreen;
-                display: inline-block;
-                font-size: 28px;
-                margin: 8px 2px;
-                cursor: pointer;
-            }
-            .button:hover {
-                border: outset;
-                background-color: darkgreen;
-                border-color: #4CAF50;
-            }
-            
-            .glow-on-hover {
-                width: 220px;
-                height: 50px;
-                border: none;
-                outline: none;
-                color: #fff;
-                background: #111;
-                cursor: pointer;
-                position: relative;
-                z-index: 0;
-                border-radius: 10px;
-            }
-
-            .glow-on-hover:before {
-                content: '';
-                background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-                position: absolute;
-                top: -2px;
-                left:-2px;
-                background-size: 400%;
-                z-index: -1;
-                filter: blur(5px);
-                width: calc(100% + 4px);
-                height: calc(100% + 4px);
-                animation: glowing 20s linear infinite;
-                opacity: 0;
-                transition: opacity .3s ease-in-out;
-                border-radius: 10px;
-            }
-
-            .glow-on-hover:active {
-                color: #000
-            }
-
-            .glow-on-hover:active:after {
-                background: transparent;
-            }
-
-            .glow-on-hover:hover:before {
-                opacity: 1;
-            }
-
-            .glow-on-hover:after {
-                z-index: -1;
-                content: '';
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: #111;
-                left: 0;
-                top: 0;
-                border-radius: 10px;
-            }
-
-            @keyframes glowing {
-                0% { background-position: 0 0; }
-                50% { background-position: 400% 0; }
-                100% { background-position: 0 0; }
-            }
-        </style>
+        <title>menu</title>
+        <link rel="stylesheet" href="css/menu_style.css.css">
     </head>
     <body>
-        <center>
+        <div style="text-align: center;">
             <a href="/tickets.html"  class="button glow-on-hover" target="content">Tickets</a>
             <a href="/location.html" class="button glow-on-hover" target="content">Location</a>
             <a href="/home.html" class="button glow-on-hover" target="content">Home</a>
             <a href="/infos.html" class="button glow-on-hover" target="content">Infos</a>
             <a href="/bilder.html" class="button glow-on-hover" target="content">Bilder</a>
-        </center>
+        </div>
     </body>
 </html>
