@@ -1,0 +1,23 @@
+.iframe-container-head {
+    border: None;
+    height: 7vh;
+    width: 100vw;
+}
+
+.iframe-container-menu {
+    border: None;
+    height: 10vh;
+    width: 100vw;
+}
+
+.iframe-container-content {
+    border: None;
+    height: 73vh;
+    width: 100vw;
+}
+
+.iframe-container-footer {
+    border: None;
+    height: 7vh;
+    width: 100vw;
+}

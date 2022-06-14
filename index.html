@@ -2,11 +2,12 @@
 <html lang="html">
     <head>
         <title>Olle Elfen im WorldWaldAll</title>
+        <link rel="stylesheet" href="css/frame_style.css">
     </head>
-    <frameset rows="7%, 13%, 73%, 7%" border=0>
-        <frame name="header" src='/header.html'/>
-        <frame name="menu" src='/menu.html'/>
-        <frame name="content" src='/home.html'/>
-        <frame name="footer" src='/footer.html'/>            
-    </frameset>
+    <body>
+        <iframe src='/header.html' class="iframe-container-head"></iframe>
+        <iframe src='/menu.html' class="iframe-container-menu"></iframe>
+        <iframe src='/home.html' class="iframe-container-content" name="content"></iframe>
+        <iframe src='/footer.html' class="iframe-container-footer"></iframe>
+    </body>
 </html>
