@@ -1,27 +1,31 @@
+body {
+    overflow: hidden;
+}
+
 .iframe-container-head {
     overflow: hidden;
-    border: None;
+    border: 0;
     height: 7vh;
     width: 100vw;
 }
 
 .iframe-container-menu {
     overflow: hidden;
-    border: None;
-    height: 10vh;
+    border: 0;
+    height: 12vh;
     width: 100vw;
 }
 
 .iframe-container-content {
     overflow: hidden;
-    border: None;
+    border: 0;
     height: 70vh;
     width: 100vw;
 }
 
 .iframe-container-footer {
     overflow: hidden;
-    border: None;
+    border: 0;
     height: 7vh;
     width: 100vw;
 }
