@@ -3,7 +3,7 @@
 
 h1 {
     position: relative;
-    font-family: 'Exo';
+    font-family: 'Exo', serif;
     font-size: 4em;
     margin: 0;
     transform: skew(-15deg);
@@ -35,10 +35,9 @@ h1 span:last-child {
 }
 
 h2 {
-    font-family: 'Mr Dafoe';
-    margin: 0;
+    font-family: 'Mr Dafoe', serif;
     font-size: 1em;
-    margin-top: -0.6em;
+    margin: -0.6em 0 0;
     color: white;
     text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
     transform: rotate(-7deg);
