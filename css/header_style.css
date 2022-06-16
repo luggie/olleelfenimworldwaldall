@@ -9,7 +9,7 @@ body {
 
 p {
     vertical-align: middle;
-    font-size: 5em;
+    font-size: 90vh;
     opacity: 0.7;
     -webkit-text-stroke: 1px black;
     color: yellow;
