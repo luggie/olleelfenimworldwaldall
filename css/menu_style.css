@@ -2,6 +2,9 @@
 
 body {
     background: deeppink;
+    display: flex;
+    align-items: safe center;
+    justify-content: safe center;
 }
 
 .button {
