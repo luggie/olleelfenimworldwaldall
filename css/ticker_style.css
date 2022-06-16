@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap");
+
 body {
   padding-top: 5em;
   font-size: 16px;
@@ -6,9 +8,9 @@ body {
 }
 
 .bubbly-button {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: 'Exo', serif;
   display: inline-block;
-  font-size: 1em;
+  font-size: 3em;
   padding: 1em 2em;
   margin-top: 100px;
   margin-bottom: 60px;
@@ -16,7 +18,7 @@ body {
   appearance: none;
   background-color: #ff0081;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
   position: relative;
