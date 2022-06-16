@@ -3,8 +3,9 @@
 body {
     background: deeppink;
     display: flex;
-    align-items: safe center;
-    justify-content: safe center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 .button {
@@ -21,8 +22,8 @@ body {
 }
 
 .glow-on-hover {
-    width: 15vw;
     height: 2em;
+    width: 15vw;
     border: none;
     outline: none;
     color: #fff;
