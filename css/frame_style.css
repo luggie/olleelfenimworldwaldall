@@ -1,5 +1,5 @@
 body {
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .iframe-container-head {
@@ -19,7 +19,7 @@ body {
 .iframe-container-content {
     overflow: scroll;
     border: 0;
-    height: 70vh;
+    height: 65vh;
     width: 100vw;
 }
 
