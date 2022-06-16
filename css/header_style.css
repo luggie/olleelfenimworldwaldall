@@ -1,6 +1,6 @@
 body {
     background-image: url("../pics/duck.gif");
-    background-repeat:repeat;
+    background-repeat: repeat;
     background-size: 100vh;
     padding:0;
     margin:0;
@@ -16,4 +16,5 @@ p {
     width: 100%;
     height: 100%;
     margin: 0;
+    overflow: hidden;
 }
