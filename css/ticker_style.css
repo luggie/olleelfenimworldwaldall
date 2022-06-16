@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap");
 
 body {
+  overflow: scroll;
   font-size: 16px;
   font-family: "Helvetica", "Arial", sans-serif;
   background-color: #f8faff;

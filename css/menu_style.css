@@ -6,8 +6,10 @@ body {
 
 .button {
     color: white;
-    padding: 15px 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
+    vertical-align: center;
     display: inline-block;
     font-size: 2em;
     font-family: 'Exo', serif;
@@ -17,7 +19,7 @@ body {
 
 .glow-on-hover {
     width: 15vw;
-    height: 50vh;
+    height: 2em;
     border: none;
     outline: none;
     color: #fff;
