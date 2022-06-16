@@ -17,7 +17,7 @@ html, body {
 }
 
 .iframe-container-content {
-    overflow: scroll;
+    overflow: auto;
     border: 0;
     height: 65vh;
     width: 100vw;

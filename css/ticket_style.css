@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap");
 
 body {
-  overflow: scroll;
+  overflow: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
