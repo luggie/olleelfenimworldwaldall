@@ -1,7 +1,5 @@
 body, html {
-    display: flex;
-    align-content: safe center;
-    justify-content: safe center;
+    justify-content: center;
     overflow: hidden;
 }
 
