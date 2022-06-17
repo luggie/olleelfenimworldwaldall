@@ -1,9 +1,8 @@
 body, html {
+    display: flex;
+    align-content: safe center;
+    justify-content: safe center;
     overflow: hidden;
-}
-
-body {
-    display: flex
 }
 
 h1 {
