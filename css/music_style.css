@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
+.quad {
+    object-fit: cover;
+    width:100px;
+    height:100px;
+}
+
 .sub {
     margin-left: 10px;
     margin-top: -5px;
