@@ -62,6 +62,10 @@ body {
   animation: bottomBubbles ease-in-out 0.75s forwards;
 }
 
+.bubbly-button:disabled {
+  background-color: grey;
+}
+
 @keyframes topBubbles {
   0% {
     background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
